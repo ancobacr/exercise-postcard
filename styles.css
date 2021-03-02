@@ -1,9 +1,63 @@
+* {
+    font-family: 'RocknRoll One', sans-serif;
+}
+
 body {
-	background: black;
+    background: black;
 }
 .postcard {
 	background: white;
 	width: 400px;
 	height: 300px;
-	margin: auto;
+    margin: auto;
+    font-family: 'RocknRoll One', sans-serif;
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+    padding: 15px
+}
+
+
+.cabecera{
+    width: 400px; height: 70px;
+    overflow:hidden;
+}
+
+.cabecera h1{
+    margin:0;
+    float: left;
+    font-size:40px;
+}
+
+.cabecera img{
+    max-width: 60px;
+    float: right;
+}
+
+.texto{
+    float: left;
+    width: 50%;
+    font-size:14px
+}
+
+.formulario{
+    float: right;
+    width: 50%;
+    display:block;
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+.formulario input{
+    border:none; border-bottom: 1px solid gray;
+}
+
+footer{
+    clear:both;
+    text-align: center;
+}
+
+.postcard-footer input[type=submit]{
+    background: gray;
+    width: 40%;
+    margin:0px;
+    padding: 5px;
+    border: none;
 }
